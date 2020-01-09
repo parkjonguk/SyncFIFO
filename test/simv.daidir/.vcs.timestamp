@@ -1,0 +1,114 @@
+12       
+0 Environment.sv
+0 /tools/synopsys/vcs/L-2016.06-SP2-5/etc/systemverilog/Environment.sv
+0 Transaction.sv
+0 /tools/synopsys/vcs/L-2016.06-SP2-5/etc/systemverilog/Transaction.sv
+0 Generator.sv
+0 /tools/synopsys/vcs/L-2016.06-SP2-5/etc/systemverilog/Generator.sv
+0 Driver.sv
+0 /tools/synopsys/vcs/L-2016.06-SP2-5/etc/systemverilog/Driver.sv
+0 Monitor.sv
+0 /tools/synopsys/vcs/L-2016.06-SP2-5/etc/systemverilog/Monitor.sv
+0 Scoreboard.sv
+0 /tools/synopsys/vcs/L-2016.06-SP2-5/etc/systemverilog/Scoreboard.sv
+29
+
++incdir+../svtb
+-Mamsrun=
+-Masflags=--32
+-Mcc=gcc
+-Mcfl= -pipe -m32 -O -I/tools/synopsys/vcs/L-2016.06-SP2-5/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -m32 -m32 -rdynamic
+-Mobjects= /tools/synopsys/vcs/L-2016.06-SP2-5/linux/lib/libvirsim.so /tools/synopsys/vcs/L-2016.06-SP2-5/linux/lib/liberrorinf.so /tools/synopsys/vcs/L-2016.06-SP2-5/linux/lib/libsnpsmalloc.so
+-Mout=simv
+-Msaverestoreobj=/tools/synopsys/vcs/L-2016.06-SP2-5/linux/lib/vcs_save_restore_new.o
+-Msyslibs=/tools/synopsys/vcs/L-2016.06-SP2-5/linux/lib/ctype-stubs_32.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -m32 -I/tools/synopsys/vcs/L-2016.06-SP2-5/include
+-V
+-gen_obj
+-l
+-picarchive
+-sverilog
+../rtl/generic_fifo_sync.v
+../svtb/Interface.sv
+../svtb/Test.sv
+../svtb/Testbench_top.sv
+/tools/synopsys/vcs/L-2016.06-SP2-5/linux/bin/vcs1
+vcs.log
+52
+sysc_uni_pwd=/home/jonguk/SyncFIFO/test
+ZSH=/home/jonguk/.oh-my-zsh
+XDG_SESSION_TYPE=x11
+XDG_SESSION_ID=3195
+XDG_RUNTIME_DIR=/run/user/1005
+XDG_DATA_DIRS=/home/jonguk/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+XDG_CURRENT_DESKTOP=MATE
+VTE_VERSION=5202
+VNCDESKTOP=TurboVNC: hw.islab.re.kr:5 (jonguk)
+VMR_MODE_FLAG=32
+VIVADO_HOME=/tools/xilinx/vivado_sdk_2019.1/Vivado/2019.1
+VGL_COMPRESS=0
+VERDI_HOME=/tools/synopsys/verdi/L-2016.06-SP2-5
+VCS_LOG_FILE=vcs.log
+VCS_HOME=/tools/synopsys/vcs/L-2016.06-SP2-5
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux
+VCS_AMD_PURE32=1
+UNAME=/bin/uname
+TVNC_WM=mate-session
+TOOL_HOME=/tools/synopsys/vcs/L-2016.06-SP2-5/linux
+SYNOPSYS=/tools/synopsys
+SSH_TTY=/dev/pts/3
+SSH_CONNECTION=164.125.68.153 51635 164.125.68.177 22
+SSH_CLIENT=164.125.68.153 51635 22
+SSH_AUTH_SOCK=/run/user/1005/keyring/ssh
+SPYGLASS_HOME=/tools/synopsys/spy/SpyGlass-5.6.1.9/SPYGLASS_HOME
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/21863,unix/unix:/tmp/.ICE-unix/21863
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QUESTA_HOME=/tools/mentor/questa/ultra_10.7b/questasim
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+OVA_UUM=0
+MATE_DESKTOP_SESSION_ID=this-is-deprecated
+LSCOLORS=Gxfxcxdxbxegedabagacad
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LESS=-R
+LC_ALL=C
+HISTCONTROL=ignoredups
+HDL_DESIGN_HOME=/tools/mentor/HDS_2016.1
+GTK_OVERLAY_SCROLLING=0
+DC_HOME=/tools/synopsys/syn/K-2015.06-SP2
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-73Ut6WJOsg,guid=f8d1ee48796eda6eaeb2eef55dfc83fe
+COLORTERM=truecolor
+ATRENTA_LICENSE_FILE=27020@hw.islab.re.kr
+0
+10
+1578555776 ../svtb/Scoreboard.sv
+1578555618 ../svtb/Monitor.sv
+1578556144 ../svtb/Driver.sv
+1578554867 ../svtb/Generator.sv
+1578554744 ../svtb/Transaction.sv
+1578556191 ../svtb/Environment.sv
+1578554365 ../svtb/Test.sv
+1578552319 ../svtb/Interface.sv
+1578556295 ../svtb/Testbench_top.sv
+1578551555 ../rtl/generic_fifo_sync.v
+4
+0 
+1495597862 /tools/synopsys/vcs/L-2016.06-SP2-5/linux/lib/libvirsim.so
+1495597335 /tools/synopsys/vcs/L-2016.06-SP2-5/linux/lib/liberrorinf.so
+1495597296 /tools/synopsys/vcs/L-2016.06-SP2-5/linux/lib/libsnpsmalloc.so
+1578556487 simv.daidir

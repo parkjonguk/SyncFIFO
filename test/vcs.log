@@ -1,0 +1,88 @@
+
+Warning-[LNX_OS_VERUN] Unsupported Linux version
+  Linux version 'CentOS Linux release 7.7.1908 (Core)' is not supported on 
+  'x86_64' officially, assuming linux compatibility by default. Set 
+  VCS_ARCH_OVERRIDE to linux or suse32 to override.
+  Please refer to release notes for information on supported platforms.
+
+Note: Bumping stack limit from 8192 to 65536 Kbytes.
+
+Warning-[UNKWN_OPTVSIM] Unknown option passed
+  Ignoring unknown option '-dubug_all' passed to 'vcs' and continuing 
+  compilation.
+
+Command: vcs -l vcs.log -sverilog -dubug_all -V ../rtl/generic_fifo_sync.v ../svtb/Testbench_top.sv \
+../svtb/Interface.sv ../svtb/Test.sv +vcs+dpluson +incdir+../svtb
+/tools/synopsys/vcs/L-2016.06-SP2-5/linux/bin/vcs1 -Mcc=gcc -Mcplusplus=g++ -Masflags=--32 \
+-Mcfl= -pipe -m32 -O -I/tools/synopsys/vcs/L-2016.06-SP2-5/include  -Mxcflags= -pipe \
+-m32 -I/tools/synopsys/vcs/L-2016.06-SP2-5/include -Mldflags= -m32 -m32 -rdynamic \
+-Mout=simv -Mamsrun="" -Mvcsaceobjs="" -Mobjects=" /tools/synopsys/vcs/L-2016.06-SP2-5/linux/lib/libvirsim.so \
+/tools/synopsys/vcs/L-2016.06-SP2-5/linux/lib/liberrorinf.so /tools/synopsys/vcs/L-2016.06-SP2-5/linux/lib/libsnpsmalloc.so \
+" -Mexternalobj= -Msaverestoreobj=/tools/synopsys/vcs/L-2016.06-SP2-5/linux/lib/vcs_save_restore_new.o \
+-Mcrt0= -Mcrtn="" -Mcsrc="" -Msyslibs=/tools/synopsys/vcs/L-2016.06-SP2-5/linux/lib/ctype-stubs_32.a \
+-ldl  -l vcs.log -V +vcs+dpluson -picarchive -sverilog -gen_obj ../rtl/generic_fifo_sync.v \
+../svtb/Testbench_top.sv ../svtb/Interface.sv ../svtb/Test.sv +incdir+../svtb  
+                         Chronologic VCS (TM)
+         Version L-2016.06-SP2-5 -- Thu Jan  9 16:54:47 2020
+               Copyright (c) 1991-2016 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+
+Warning-[UNK_COMP_ARG] Unknown compile time plus argument used
+  Unknown compile time plus argument 'vcs+dpluson' is ignored.
+
+ + use `+plusarg_save' to bind in runtime plusargs;
+ + use `+plusarg_ignore' to suppress this message.
+Parsing design file '../rtl/generic_fifo_sync.v'
+
+Warning-[IPDW] Identifier previously declared
+../rtl/generic_fifo_sync.v, 67
+  Second declaration for identifier 'wr_ptr_incr' ignored
+  Identifier 'wr_ptr_incr' previously declared as wire. 
+  [../rtl/generic_fifo_sync.v, 56]
+
+Parsing design file '../svtb/Testbench_top.sv'
+Parsing design file '../svtb/Interface.sv'
+Parsing design file '../svtb/Test.sv'
+Parsing included file '../svtb/Environment.sv'.
+Parsing included file '../svtb/Transaction.sv'.
+Back to file '../svtb/Environment.sv'.
+Parsing included file '../svtb/Generator.sv'.
+Back to file '../svtb/Environment.sv'.
+Parsing included file '../svtb/Driver.sv'.
+Back to file '../svtb/Environment.sv'.
+Parsing included file '../svtb/Monitor.sv'.
+Back to file '../svtb/Environment.sv'.
+Parsing included file '../svtb/Scoreboard.sv'.
+Back to file '../svtb/Environment.sv'.
+Back to file '../svtb/Test.sv'.
+Top Level Modules:
+       svtb_top
+No TimeScale specified
+Notice: Ports coerced to inout, use -notice for details
+Starting vcs inline pass...
+
+5 unique modules to generate
+	However, due to incremental compilation, no re-compilation is necessary.
+( cd csrc ; make -f Makefile SNPS_VCS_TMPDIR=/tmp/vcs_20200109075446_31154 product \
+)
+rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -m elf_i386 -shared  -o .//../simv.daidir//_csrc0.so objs/amcQw_d.o 
+rm -f _csrc0.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ \
+-Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -m32 -m32 -rdynamic     _31499_archive_1.so \
+_prev_archive_1.so _csrc0.so  SIM_l.o  _csrc0.so     rmapats_mop.o rmapats.o rmar.o \
+rmar_llvm_0_1.o rmar_llvm_0_0.o          /tools/synopsys/vcs/L-2016.06-SP2-5/linux/lib/libzerosoft_rt_stubs.so \
+/tools/synopsys/vcs/L-2016.06-SP2-5/linux/lib/libvirsim.so /tools/synopsys/vcs/L-2016.06-SP2-5/linux/lib/liberrorinf.so \
+/tools/synopsys/vcs/L-2016.06-SP2-5/linux/lib/libsnpsmalloc.so    /tools/synopsys/vcs/L-2016.06-SP2-5/linux/lib/libvcsnew.so \
+/tools/synopsys/vcs/L-2016.06-SP2-5/linux/lib/libsimprofile.so /tools/synopsys/vcs/L-2016.06-SP2-5/linux/lib/libuclinative.so \
+-Wl,-whole-archive /tools/synopsys/vcs/L-2016.06-SP2-5/linux/lib/libvcsucli.so -Wl,-no-whole-archive \
+/tools/synopsys/vcs/L-2016.06-SP2-5/linux/lib/vcs_save_restore_new.o /tools/synopsys/vcs/L-2016.06-SP2-5/linux/lib/ctype-stubs_32.a \
+-ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+CPU time: .097 seconds to compile + .152 seconds to elab + .071 seconds to link

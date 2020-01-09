@@ -1,0 +1,93 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "vcs_paramclassrepository": {
+            "Compiled Times": 3,
+            "Compiled": "Yes"
+        },
+        "fifo_if": {
+            "Compiled Times": 3,
+            "Compiled": "Yes"
+        },
+        "_vcs_unit__377819379": {
+            "Compiled Times": 3,
+            "Compiled": "Yes"
+        },
+        "std": {
+            "Compiled Times": 3,
+            "Compiled": "Yes"
+        },
+        "svtb_top": {
+            "Compiled Times": 3,
+            "Compiled": "Yes"
+        },
+        "generic_fifo_sync_0000": {
+            "Compiled Times": 3,
+            "Compiled": "Yes"
+        },
+        "test": {
+            "Compiled Times": 3,
+            "Compiled": "Yes"
+        }
+    },
+    "CompUnits": {},
+    "reusePaths": {
+        "tZrqW_d": {
+            "icPath": "csrc"
+        },
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "hEeZs_d": {
+            "icPath": "csrc"
+        },
+        "mQ2G5_d": {
+            "icPath": "csrc"
+        },
+        "reYIK_d": {
+            "icPath": "csrc"
+        },
+        "Ta2P3_d": {
+            "icPath": "csrc"
+        },
+        "x9Hvb_d": {
+            "icPath": "csrc"
+        },
+        "reD5S_d": {
+            "icPath": "csrc"
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.2/_31499_archive_1.a",
+            "size": 37854,
+            "objects": [
+                [
+                    "amcQwB.o",
+                    37854
+                ]
+            ]
+        }
+    ],
+    "stat": {
+        "ru_childs_end": {
+            "ru_utime_sec": 0.0,
+            "ru_majflt": 0,
+            "ru_stime_sec": 0.0014920000000000001,
+            "ru_minflt": 600,
+            "ru_maxrss_kb": 13316,
+            "ru_nvcsw": 1,
+            "ru_nivcsw": 2
+        },
+        "ru_self_end": {
+            "ru_utime_sec": 0.05178,
+            "ru_majflt": 0,
+            "ru_stime_sec": 0.020712000000000001,
+            "ru_minflt": 15898,
+            "ru_maxrss_kb": 61060,
+            "ru_nvcsw": 38,
+            "ru_nivcsw": 100
+        },
+        "peak_mem_kb": 171188
+    }
+}
